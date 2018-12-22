@@ -1,3 +1,3 @@
 const path = require('path');
 
-module.exports = require(path.resolve(__dirname, './release-config/index.js'));
+module.exports = require(path.resolve(__dirname, './src/index.js'));
