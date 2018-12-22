@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+    - 11
+install:
+    - npm ci
+notifications:
+  email: false
+sudo: required
+script:
+    - npm run release
+branches:
+    only:
+        - master
+        - beta
