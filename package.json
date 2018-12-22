@@ -17,7 +17,7 @@
     "url": "https://github.com/fabulator/semantic-release-config-fabulator/issues"
   },
   "homepage": "https://github.com/fabulator/semantic-release-config-fabulator#readme",
-  "devDependencies": {
+  "dependencies": {
     "@semantic-release/git": "^7.1.0-beta.2",
     "@socifi/commitlint-config": "^1.0.0",
     "luxon": "^1.8.3",
