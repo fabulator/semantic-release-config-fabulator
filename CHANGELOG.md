@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] 2018-12-22
+### Fixed
+- Commit message
+
 ## [1.0.2] 2018-12-22
 ### Fixed
 - Rename source directory to dir
