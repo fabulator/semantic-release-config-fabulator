@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] 2019-10-20
+### Added
+- Docker publishing.
+- Multiple changelog messages in on commit.
+
 ## [1.0.3] 2018-12-22
 ### Fixed
 - Commit message
