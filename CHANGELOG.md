@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.3] 2019-10-20
+### Fixed
+- Not publish to npm with docker build
+
 ## [1.1.2] 2019-10-20
 ### Fixed
 - Missing variable in docker config
