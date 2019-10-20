@@ -7,7 +7,18 @@ module.exports = {
     ...config,
     verifyConditions: ['semantic-release-docker'],
     prepare: [
-        ...config.prepare,
+        ...config.prepare.map((plugin) => {
+            if (plugin !== '@semantic-release/npm') {
+                return plugin;
+            }
+
+            return [
+                '@semantic-release/npm',
+                {
+                    npmPublish: false,
+                },
+            ];
+        }),
         {
             path: '@semantic-release/exec',
             cmd: `docker build -t ${dockerPackage} .`,
@@ -21,9 +32,4 @@ module.exports = {
         },
     ],
     addChannel: ['@semantic-release/github'],
-    plugins: [
-        '@semantic-release/npm', {
-            npmPublish: false,
-        },
-    ],
 };
