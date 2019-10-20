@@ -1,4 +1,4 @@
-module.export = (commits) => {
+module.exports = (commits) => {
     return commits.map((commit) => {
         const { subject } = commit;
         if (!subject.includes(';')) {
