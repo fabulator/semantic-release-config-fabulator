@@ -8,7 +8,11 @@ const processCommits = require('./process-commits.js');
 module.exports = ({ repositoryUrl }, { commits, nextRelease, ...rest }) => {
     const changes = {};
 
-    const repo = repositoryUrl.replace('git@', 'https://').replace('github.com:', 'github.com/').replace('.git', '/');
+    const repo = repositoryUrl
+        .replace('git@', 'https://')
+        .replace('git+', '')
+        .replace('github.com:', 'github.com/')
+        .replace('.git', '/');
 
     // convert commit messages to universal format
     processCommits(commits).map((commit) => {
