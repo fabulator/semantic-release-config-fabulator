@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.5] 2019-10-20
+### Fixed
+- No release tag for changelog commiting
+
 ## [1.1.4] 2019-10-20
 ### Fixed
 - Not publish to npm with docker build
