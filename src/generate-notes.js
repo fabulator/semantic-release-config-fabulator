@@ -27,7 +27,7 @@ module.exports = (settings, { commits, nextRelease }) => {
         .filter(item => ![TEST, IN_PROGRESS].includes(item.type))
         .filter(item => !item.message.includes('Merge branch'))
         .filter(item => !item.message.includes('EXCLUDE'))
-        .filter(item => !item.message.includes('Commit changelog of'))
+        .filter(item => !item.message.includes('Changelog for version'))
         // put commits to object with summed messages by types
         .forEach(({ type, message }) => {
             changes[type] = [

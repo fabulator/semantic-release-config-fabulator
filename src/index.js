@@ -12,7 +12,7 @@ module.exports = {
             path: '@semantic-release/git',
             assets: ['package.json', 'package-lock.json', 'CHANGELOG.md'],
             // eslint-disable-next-line no-template-curly-in-string
-            message: 'Added: Changelog for version ${nextRelease.version} NO_RELEASE\n\n${nextRelease.notes}',
+            message: 'Added: Changelog for version ${nextRelease.version} NO_RELEASE EXCLUDE\n\n${nextRelease.notes}',
         },
     ],
     success: ['@semantic-release/github'],
