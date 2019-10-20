@@ -19,5 +19,11 @@ module.exports = {
             path: path.resolve(__dirname, './publish-docker.js'),
             name: `${dockerPackage}`,
         },
-    ]
+    ],
+    addChannel: ['@semantic-release/github'],
+    plugins: [
+        '@semantic-release/npm', {
+            npmPublish: false,
+        },
+    ],
 };
