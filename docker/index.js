@@ -1,3 +1,4 @@
+const path = require('path');
 const config = require('../src');
 
 const dockerPackage = `fabulator/${process.env.npm_package_name}`;
