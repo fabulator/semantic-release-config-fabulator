@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.3.2] 2019-10-20
+### Fixed
+- [ab2b936](https://github.com/fabulator/semantic-release-config-fabulator/commit/ab2b9361e360fa92abb5ecb02e967ab288e99f64) Links in changelog.
+
 ## [1.3.1] 2019-10-20
 ### Fixed
 - [70af709](https://github.com/fabulator/semantic-release-config-fabulator/commit/70af709e2268f71f17704f6308e6374b271978dc) Do not include merge messages in changelog.
