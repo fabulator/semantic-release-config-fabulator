@@ -8,6 +8,7 @@ const {
     DOCS,
     REFACTORED,
 } = require('@socifi/commitlint-config/src/types');
+const processCommits = require('./process-commits.js');
 
 module.exports = (settings, { commits, logger }) => {
     // do no release anything of there are not commits
@@ -35,5 +36,5 @@ module.exports = (settings, { commits, logger }) => {
             { type: REFACTORED, release: 'minor' },
             { type: DOCS, release: 'patch' },
         ],
-    }, { commits, logger });
+    }, { commits: processCommits(commits), logger });
 };

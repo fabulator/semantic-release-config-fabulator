@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/fabulator/semantic-release-config-fabulator#readme",
   "dependencies": {
-    "@semantic-release/git": "^7.1.0-beta.2",
+    "@semantic-release/exec": "^3.3.7",
+    "@semantic-release/git": "^7.1.0-beta.7",
+    "@semantic-release/github": "^5.6.0-beta.2",
+    "@semantic-release/npm": "^6.0.0-beta.2",
     "@socifi/commitlint-config": "^1.0.0",
-    "luxon": "^1.8.3",
-    "semantic-release": "^16.0.0-beta.13",
-    "@semantic-release/github": "^5.3.0-beta.5",
-    "@semantic-release/npm": "^5.2.0-beta.4"
+    "execa": "^3.2.0",
+    "luxon": "^1.19.3",
+    "semantic-release": "^16.0.0-beta.26",
+    "semver": "^6.3.0"
   }
 }

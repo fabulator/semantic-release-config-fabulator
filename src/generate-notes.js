@@ -3,13 +3,13 @@ const {
     TEST,
     IN_PROGRESS,
 } = require('@socifi/commitlint-config/src/types');
-
+const processCommits = require('./process-commits.js');
 
 module.exports = (settings, { commits, nextRelease }) => {
     const changes = {};
 
     // convert commit messages to universal format
-    commits.map((commit) => {
+    processCommits(commits).map((commit) => {
         const [type, ...message] = commit.message.split(':');
         if (message.length === 0) {
             return {

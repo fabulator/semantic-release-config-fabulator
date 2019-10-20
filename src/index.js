@@ -15,9 +15,7 @@ module.exports = {
             message: 'Added: Changelog for version ${nextRelease.version}\n\n${nextRelease.notes}',
         },
     ],
-    success: [
-        '@semantic-release/github',
-    ],
+    success: ['@semantic-release/github'],
     verifyConditions: [],
     analyzeCommits: path.resolve(__dirname, './analyze-commits.js'),
     branches: [{ name: 'beta', prerelease: true }, 'master'],
