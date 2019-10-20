@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.7] 2019-10-20
+### Fixed
+- Handling changelog when merging from branches
+
 ## [1.1.6] 2019-10-20
 ### Fixed
 - No release tag for changelog commiting
