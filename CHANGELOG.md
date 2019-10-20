@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] 2019-10-20
+### Merge branch 'master' of github.com
+- [91716af](https://github.com/fabulator/semantic-release-config-fabulator/commit/91716af0512fb970b0edb15cd716ff87b055c1c3) fabulator/semantic-release-config-fabulator
+
+### Added
+- [838e730](https://github.com/fabulator/semantic-release-config-fabulator/commit/838e7303edac7bf900d2cdd6a93bbc56ce810f81) Link to commits in messages.
+
 ## [1.1.7] 2019-10-20
 ### Fixed
 - Handling changelog when merging from branches
