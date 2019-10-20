@@ -36,7 +36,8 @@ module.exports = ({ repositoryUrl }, { commits, nextRelease, ...rest }) => {
         })
         // remove all commits that should not be in changelog
         .filter(item => ![TEST, IN_PROGRESS].includes(item.type))
-        .filter(item => !item.message.includes('Merge branch'))
+        .filter(item => !item.message.includes('Merge'))
+        .filter(item => !item.type.includes('Merge'))
         .filter(item => !item.message.includes('EXCLUDE'))
         .filter(item => !item.message.includes('Changelog for version'))
         // put commits to object with summed messages by types
