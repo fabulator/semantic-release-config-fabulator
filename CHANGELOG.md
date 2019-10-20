@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] 2019-10-20
+### Fixed
+- [702a6e9](https://github.com/fabulator/semantic-release-config-fabulator/commit/702a6e948ca51c9683f72b292cff1bcdc3718c62) Link in changelog.
+
+### Changed
+- [b2bcd92](https://github.com/fabulator/semantic-release-config-fabulator/commit/b2bcd923b814c35041bcfc0b8731f4fac856e0d5) Update repo @socifi/commitlint-config 
+
 ## [1.2.0] 2019-10-20
 ### Merge branch 'master' of github.com
 - [91716af](https://github.com/fabulator/semantic-release-config-fabulator/commit/91716af0512fb970b0edb15cd716ff87b055c1c3) fabulator/semantic-release-config-fabulator
