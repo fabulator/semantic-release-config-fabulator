@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] 2019-10-20
+### Fixed
+- Missing dependency semantic-release-docker
+
 ## [1.1.0] 2019-10-20
 ### Added
 - Docker publishing.

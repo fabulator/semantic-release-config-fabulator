@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-config-fabulator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Semantic release config for Fabulators projects",
   "main": "src/index.js",
   "scripts": {
