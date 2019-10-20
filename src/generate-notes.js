@@ -11,6 +11,7 @@ module.exports = ({ repositoryUrl }, { commits, nextRelease, ...rest }) => {
     const repo = repositoryUrl
         .replace('git@', 'https://')
         .replace('git+', '')
+        .replace('ssh://', '')
         .replace('github.com:', 'github.com/')
         .replace('.git', '/');
 
