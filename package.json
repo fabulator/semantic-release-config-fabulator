@@ -30,6 +30,6 @@
     "semver": "^6.3.0"
   },
   "devDependencies": {
-    "renovate-config-fabulator": "^1.2.0"
+    "renovate-config-fabulator": "^1.2.1"
   }
 }
