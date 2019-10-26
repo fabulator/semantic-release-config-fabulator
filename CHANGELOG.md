@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.4.1 (2019-10-26)
+### Fixed
+- [e1ff7ba](https://github.com/fabulator/semantic-release-config-fabulator/commit/e1ff7bad5a0dbf75f3ac6be14570662766a1ee5c) Revert putting compiled source code to releases. Needs more testing.
+
 ## v1.4.0 (2019-10-26)
 ### Added
 - [bbcd431](https://github.com/fabulator/semantic-release-config-fabulator/commit/bbcd43129b8a2828971d2b6c35a80c1d7a1c53e6) EsLinter
