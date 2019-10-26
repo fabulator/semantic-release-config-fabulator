@@ -57,5 +57,5 @@ module.exports = ({ repositoryUrl }, { commits, nextRelease, ...rest }) => {
     }).join('\n');
 
     // return update of changelog
-    return `## [${nextRelease.version}] ${DateTime.local().toFormat('yyyy-MM-dd')}\n${changesMessage}`;
+    return `## v${nextRelease.version} (${DateTime.local().toFormat('yyyy-MM-dd')})\n${changesMessage}`;
 };
