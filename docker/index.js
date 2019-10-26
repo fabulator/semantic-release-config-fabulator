@@ -5,6 +5,11 @@ const dockerPackage = `fabulator/${process.env.npm_package_name}`;
 
 module.exports = {
     ...config,
+    plugins: [
+        ['@semantic-release/github', {
+            assignees: 'fabulator',
+        }],
+    ],
     verifyConditions: ['semantic-release-docker'],
     prepare: [
         ...config.prepare.map((plugin) => {
@@ -22,7 +27,7 @@ module.exports = {
         {
             path: '@semantic-release/exec',
             cmd: `docker build -t ${dockerPackage} .`,
-        }
+        },
     ],
     publish: [
         '@semantic-release/github',

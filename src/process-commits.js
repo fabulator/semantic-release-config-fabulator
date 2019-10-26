@@ -1,5 +1,5 @@
 module.exports = (commits) => {
-    return commits.map((commit) => {
+    return commits.flatMap((commit) => {
         const { subject } = commit;
         if (!subject.includes(';')) {
             return commit;
@@ -11,7 +11,7 @@ module.exports = (commits) => {
                 ...commit,
                 message: trimmedMessage,
                 subject: trimmedMessage,
-            }
-        })
-    }).flat();
+            };
+        });
+    });
 };

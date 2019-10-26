@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-    - 11
+    - "12"
 install:
     - npm ci
-notifications:
-  email: false
-sudo: required
 script:
+    - npm run lint
+after_success:
+    - npm install -g codecov
+    - codecov
     - npm run release
-branches:
-    only:
-        - master
-        - beta
+notifications:
+    email: false
+sudo: required
