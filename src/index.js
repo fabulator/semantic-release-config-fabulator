@@ -4,10 +4,6 @@ module.exports = {
     plugins: [
         ['@semantic-release/github', {
             assignees: 'fabulator',
-            assets: [
-                { path: 'src/**/*.*', name: 'source-code', label: 'Source code (${nextRelease.gitTag})' },
-                { path: 'dist/**/*.*', name: 'compiled-code', label: 'Compiled source code (${nextRelease.gitTag})' },
-            ],
         }],
     ],
     generateNotes: path.resolve(__dirname, './generate-notes.js'),
