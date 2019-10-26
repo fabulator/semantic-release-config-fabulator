@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.4.0 (2019-10-26)
+### Added
+- [bbcd431](https://github.com/fabulator/semantic-release-config-fabulator/commit/bbcd43129b8a2828971d2b6c35a80c1d7a1c53e6) EsLinter
+- [bbcd431](https://github.com/fabulator/semantic-release-config-fabulator/commit/bbcd43129b8a2828971d2b6c35a80c1d7a1c53e6) Include compiled code in github release.
+
+### Changed
+- [3811e28](https://github.com/fabulator/semantic-release-config-fabulator/commit/3811e2855b29697f8b012f92f39e43b90424c866) Nicer looking release title
+- [b208610](https://github.com/fabulator/semantic-release-config-fabulator/commit/b20861075f2c0db14a17fcd110511f1175373835) Update dev dependency renovate-config-fabulator to ^1.2.1 
+
+### Fixed
+- [3811e28](https://github.com/fabulator/semantic-release-config-fabulator/commit/3811e2855b29697f8b012f92f39e43b90424c866) Remove unnesesary package renovate config.
+
 ## [1.3.2] 2019-10-20
 ### Fixed
 - [ab2b936](https://github.com/fabulator/semantic-release-config-fabulator/commit/ab2b9361e360fa92abb5ecb02e967ab288e99f64) Links in changelog.
