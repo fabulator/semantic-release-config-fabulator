@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.8.0 (2019-11-13)
+### Changed
+- [bba83f1](https://github.com/fabulator/semantic-release-config-fabulator/commit/bba83f1393cf6220516b50d4a8ca9875bfc9d82d) Update dependency execa to v3.3.0
+
 ## v1.7.0 (2019-11-09)
 ### Changed
 - [fd9c9c0](https://github.com/fabulator/semantic-release-config-fabulator/commit/fd9c9c0dd4b8bcf19b0b282b8d94380956754455) Update semantic-release monorepo
