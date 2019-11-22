@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.10.0 (2019-11-22)
+### Changed
+- [3bb8b7a](https://github.com/fabulator/semantic-release-config-fabulator/commit/3bb8b7a389dc86a3a64d8d1d21e6402cda74727e) Update semantic-release monorepo
+
 ## v1.9.0 (2019-11-19)
 ### Changed
 - [cb00948](https://github.com/fabulator/semantic-release-config-fabulator/commit/cb00948f3e4d204a20aca9443649a51302e40590) Update dependency luxon to v1.21.2
