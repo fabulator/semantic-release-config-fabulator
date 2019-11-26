@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.12.0 (2019-11-26)
+### Changed
+- [61d3c39](https://github.com/fabulator/semantic-release-config-fabulator/commit/61d3c39457a5231b4f8a553d9a277cc036531860) Update dependency execa to v3.4.0
+
 ## v1.11.0 (2019-11-24)
 ### Changed
 - [5914da4](https://github.com/fabulator/semantic-release-config-fabulator/commit/5914da4074ed7005974b7bf3e1a53ec833cbaa0b) Update dependency semantic-release to v16.0.0-beta.36
