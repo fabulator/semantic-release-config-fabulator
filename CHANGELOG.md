@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.21.0 (2020-01-23)
+### Changed
+- [29575a8](https://github.com/fabulator/semantic-release-config-fabulator/commit/29575a8cdfe4af982b1f7f5d887a1d2867da42a5) Update dependency semantic-release to v16.0.3
+
 ## v1.20.0 (2020-01-16)
 ### Changed
 - [3c4bf62](https://github.com/fabulator/semantic-release-config-fabulator/commit/3c4bf627a0f7b238ed3f1086bfc5e4fe37d3fda3) Update dependency semantic-release to v16.0.2
