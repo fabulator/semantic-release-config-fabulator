@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.23.0 (2020-01-28)
+### Changed
+- [f9c4729](https://github.com/fabulator/semantic-release-config-fabulator/commit/f9c47295f2c9382af85423358c4c335ef56a1356) Update dependency semantic-release to v16.0.4
+
 ## v1.22.0 (2020-01-27)
 ### Changed
 - [a9f9bbd](https://github.com/fabulator/semantic-release-config-fabulator/commit/a9f9bbd87237038994506b691aea7714c2db0e0d) Update dependency luxon to v1.22.0
