@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.24.0 (2020-03-26)
+### Changed
+- [90cea9c](https://github.com/fabulator/semantic-release-config-fabulator/commit/90cea9ccd8ee27243d7c594da73ce371c44ed58b) Update dependency luxon to v1.22.2
+- [e3b6deb](https://github.com/fabulator/semantic-release-config-fabulator/commit/e3b6deb1bd53c330f23804e4560db9bd2bd03b6d) Update dev dependency @socifi/eslint-config to v2.10.2 
+
 ## v1.23.0 (2020-01-28)
 ### Changed
 - [f9c4729](https://github.com/fabulator/semantic-release-config-fabulator/commit/f9c47295f2c9382af85423358c4c335ef56a1356) Update dependency semantic-release to v16.0.4
