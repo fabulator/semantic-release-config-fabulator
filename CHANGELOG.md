@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2020-05-16)
+### Changed
+- [f22e70d](https://github.com/fabulator/semantic-release-config-fabulator/commit/f22e70d20ba8dedde3a5b4d70b79a1e16df70392) Update dependency semver to v7 BREAKING (#19)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [4b4d32d](https://github.com/fabulator/semantic-release-config-fabulator/commit/4b4d32d01e9015bc6e042db71c672cea8dc5390e) Update dependency execa to v4 BREAKING (#21)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## v1.26.0 (2020-05-05)
 ### Changed
 - [9a8862a](https://github.com/fabulator/semantic-release-config-fabulator/commit/9a8862aee50e958beda5a0dbda95a8d662988a9a) Update dependency luxon to v1.24.1
