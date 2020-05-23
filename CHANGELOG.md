@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.2.0 (2020-05-23)
+### Changed
+- [8ac3827](https://github.com/fabulator/semantic-release-config-fabulator/commit/8ac3827e8978c22c992c8dc60c0eb0507baf12d1) Update dependency execa to v4.0.2
+
 ## v2.1.0 (2020-05-16)
 ### Changed
 - [6b36e1c](https://github.com/fabulator/semantic-release-config-fabulator/commit/6b36e1ca1465789cc11e822a51aec2a1be3e3435) Update dependency execa to v4.0.1
