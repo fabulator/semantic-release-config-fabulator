@@ -19,6 +19,10 @@ module.exports = {
             message: 'Added: Changelog for version ${nextRelease.version} NO_RELEASE EXCLUDE\n\n${nextRelease.notes}',
         },
     ],
+    publish: [
+        '@semantic-release/github',
+        '@semantic-release/npm',
+    ],
     success: ['@semantic-release/github'],
     analyzeCommits: path.resolve(__dirname, './analyze-commits.js'),
     branches: [{ name: 'beta', prerelease: true }, 'master'],
