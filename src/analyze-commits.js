@@ -7,7 +7,7 @@ const {
     DEPRECIATED,
     DOCS,
     REFACTORED,
-} = require('@socifi/commitlint-config/src/types');
+} = require('commitlint-config-fabulator/src/types');
 const processCommits = require('./process-commits');
 
 module.exports = (settings, { commits, logger }) => {

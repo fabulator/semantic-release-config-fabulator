@@ -2,7 +2,7 @@ const { DateTime } = require('luxon');
 const {
     TEST,
     IN_PROGRESS,
-} = require('@socifi/commitlint-config/src/types');
+} = require('commitlint-config-fabulator/src/types');
 const processCommits = require('./process-commits.js');
 
 module.exports = ({ repositoryUrl }, { commits, nextRelease }) => {
@@ -52,7 +52,7 @@ module.exports = ({ repositoryUrl }, { commits, nextRelease }) => {
     // generate changelog messages
     const changesMessage = Object.keys(changes).map((key) => {
         return `### ${key}\n${changes[key].map((message) => {
-            return `- ${message.replace(/([A-Z]{2,3}-\d*)/g, '[$1](https://socifi.atlassian.net/browse/$1)')}`;
+            return `- ${message}`;
         }).join('\n')}\n`;
     }).join('\n');
 
