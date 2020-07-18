@@ -6,9 +6,12 @@ const dockerPackage = `fabulator/${process.env.npm_package_name}`;
 module.exports = {
     ...config,
     plugins: [
-        ['@semantic-release/github', {
-            assignees: 'fabulator',
-        }],
+        [
+            '@semantic-release/github',
+            {
+                assignees: 'fabulator',
+            },
+        ],
     ],
     verifyConditions: ['semantic-release-docker'],
     prepare: [

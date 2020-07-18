@@ -1,13 +1,5 @@
 const { analyzeCommits } = require('@semantic-release/commit-analyzer');
-const {
-    CHANGED,
-    FIXED,
-    REMOVED,
-    ADDED,
-    DEPRECIATED,
-    DOCS,
-    REFACTORED,
-} = require('commitlint-config-fabulator/src/types');
+const { CHANGED, FIXED, REMOVED, ADDED, DEPRECIATED, DOCS, REFACTORED } = require('commitlint-config-fabulator/src/types');
 const processCommits = require('./process-commits');
 
 module.exports = (settings, { commits, logger }) => {
@@ -26,15 +18,18 @@ module.exports = (settings, { commits, logger }) => {
         return 'major';
     }
 
-    return analyzeCommits({
-        releaseRules: [
-            { type: CHANGED, release: 'minor' },
-            { type: FIXED, release: 'patch' },
-            { type: REMOVED, release: 'major' },
-            { type: ADDED, release: 'minor' },
-            { type: DEPRECIATED, release: 'minor' },
-            { type: REFACTORED, release: 'minor' },
-            { type: DOCS, release: 'patch' },
-        ],
-    }, { commits: processCommits(commits), logger });
+    return analyzeCommits(
+        {
+            releaseRules: [
+                { type: CHANGED, release: 'minor' },
+                { type: FIXED, release: 'patch' },
+                { type: REMOVED, release: 'major' },
+                { type: ADDED, release: 'minor' },
+                { type: DEPRECIATED, release: 'minor' },
+                { type: REFACTORED, release: 'minor' },
+                { type: DOCS, release: 'patch' },
+            ],
+        },
+        { commits: processCommits(commits), logger },
+    );
 };

@@ -1,37 +1,38 @@
 {
-    "name": "semantic-release-config-fabulator",
-    "version": "2.4.1",
-    "description": "Semantic release config for Fabulators projects",
-    "main": "src/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "eslint ./src ./docker",
-        "release": "semantic-release"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:fabulator/semantic-release-config-fabulator.git"
-    },
-    "author": "Michal Ozogán",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/fabulator/semantic-release-config-fabulator/issues"
-    },
-    "homepage": "https://github.com/fabulator/semantic-release-config-fabulator#readme",
-    "dependencies": {
-        "@semantic-release/commit-analyzer": "^6.3.1",
-        "@semantic-release/exec": "^3.3.7",
-        "@semantic-release/git": "^7.1.0-beta.7",
-        "@semantic-release/github": "^5.6.0-beta.2",
-        "@semantic-release/npm": "^6.0.0-beta.2",
-        "commitlint-config-fabulator": "^1.0.0",
-        "execa": "^4.0.0",
-        "luxon": "^1.21.1",
-        "semantic-release": "^16.0.0-beta.26",
-        "semantic-release-docker": "^2.2.0",
-        "semver": "^7.0.0"
-    },
-    "devDependencies": {
-        "@socifi/eslint-config": "^2.10.0"
-    }
+  "name": "semantic-release-config-fabulator",
+  "version": "2.4.1",
+  "description": "Semantic release config for Fabulators projects",
+  "homepage": "https://github.com/fabulator/semantic-release-config-fabulator#readme",
+  "bugs": {
+    "url": "https://github.com/fabulator/semantic-release-config-fabulator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fabulator/semantic-release-config-fabulator.git"
+  },
+  "license": "ISC",
+  "author": "Michal Ozogán",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js --ext .json",
+    "lint:fix": "npm run lint -- --fix",
+    "release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^6.3.1",
+    "@semantic-release/exec": "^3.3.7",
+    "@semantic-release/git": "^7.1.0-beta.7",
+    "@semantic-release/github": "^5.6.0-beta.2",
+    "@semantic-release/npm": "^6.0.0-beta.2",
+    "commitlint-config-fabulator": "^1.0.0",
+    "execa": "^4.0.0",
+    "luxon": "^1.21.1",
+    "semantic-release": "^16.0.0-beta.26",
+    "semantic-release-docker": "^2.2.0",
+    "semver": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-fabulator": "^1.0.0"
+  }
 }

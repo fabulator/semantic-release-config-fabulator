@@ -8,9 +8,7 @@ module.exports = async ({ name }, { nextRelease: { version }, logger }) => {
         execa('docker', ['push', `${name}:${dockerVersion}`], { stdio: 'inherit' });
     }
 
-    const {
-        major, minor, patch, prerelease,
-    } = semver(version);
+    const { major, minor, patch, prerelease } = semver(version);
 
     const isProdRelease = prerelease.length === 0;
 
