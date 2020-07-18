@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.4.1 (2020-07-18)
+### Fixed
+- [ac6b0f8](https://github.com/fabulator/semantic-release-config-fabulator/commit/ac6b0f842045535e940f0fb051b38b3a34a19ba7) Publishing
+
 ## v2.4.0 (2020-07-18)
 ### Changed
 - [173c5e3](https://github.com/fabulator/semantic-release-config-fabulator/commit/173c5e35dd5654769d09ec0294ab82f34066aa74) Migrate to semantic-release-config-fabulator
