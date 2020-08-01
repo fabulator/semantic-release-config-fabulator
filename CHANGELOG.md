@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.6.0 (2020-08-01)
+### Changed
+- [9f5998a](https://github.com/fabulator/semantic-release-config-fabulator/commit/9f5998a7046a4867d8cdf5a3de1a53fcc0c24db6) Update dependencies
+- [6723393](https://github.com/fabulator/semantic-release-config-fabulator/commit/6723393984316d1f348bd7ec707f79d226d9abe4) Update dev dependency eslint-config-fabulator to v1.0.2 
+
 ## v2.5.0 (2020-07-18)
 ### Changed
 - [282359e](https://github.com/fabulator/semantic-release-config-fabulator/commit/282359e3ed84ed16b67d09cb22e105d68d6f2208) Migrate to eslint-config-fabulator
