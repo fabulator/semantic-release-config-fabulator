@@ -33,6 +33,6 @@
     "semver": "^7.3.5"
   },
   "devDependencies": {
-    "eslint-config-fabulator": "^1.2.1"
+    "eslint-config-fabulator": "^1.2.0"
   }
 }
