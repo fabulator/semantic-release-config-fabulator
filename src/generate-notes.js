@@ -1,6 +1,6 @@
 const { DateTime } = require('luxon');
 const { TEST, IN_PROGRESS } = require('commitlint-config-fabulator/src/types');
-const processCommits = require('./process-commits.js');
+const processCommits = require('./process-commits');
 
 module.exports = ({ repositoryUrl }, { commits, nextRelease }) => {
     const changes = {};
