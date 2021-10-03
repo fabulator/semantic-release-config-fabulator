@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v3.0.0 (2021-10-03)
+### Other
+- [3a8278e](https://github.com/fabulator/semantic-release-config-fabulator/commit/3a8278e1299194923ea028b13a1bc28120a8a914) WIP
+- [9737fe2](https://github.com/fabulator/semantic-release-config-fabulator/commit/9737fe23c7749e64e4ac13543d3ef443bb03775c) WIP
+
+### Changed
+- [aa680ea](https://github.com/fabulator/semantic-release-config-fabulator/commit/aa680eaf64162d8b481495db6191b14d7b5f9310) Update dependencies BREAKING
+
 ## v2.6.2 (2021-07-18)
 ### Fixed
 - [542e4f9](https://github.com/fabulator/semantic-release-config-fabulator/commit/542e4f9f280de20287f6cade6b978a9891f465f5) Update dependencies
