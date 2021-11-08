@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v3.0.6 (2021-11-08)
+### Fixed
+- [eff9a01](https://github.com/fabulator/semantic-release-config-fabulator/commit/eff9a0183c1e513a7df38198cac866bad0984c75) Update lock for security updated
+
 ## v3.0.5 (2021-11-08)
 ### Fixed
 - [ad08d1b](https://github.com/fabulator/semantic-release-config-fabulator/commit/ad08d1b982965ed482e9e6f463c755f8cbfeb302) Update lock for security updated
