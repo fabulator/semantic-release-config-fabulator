@@ -21,13 +21,13 @@
   },
   "dependencies": {
     "@semantic-release/commit-analyzer": "^9.0.1",
-    "@semantic-release/exec": "^6.0.1",
-    "@semantic-release/git": "^10.0.0",
-    "@semantic-release/github": "^8.0.1",
-    "@semantic-release/npm": "^8.0.0",
+    "@semantic-release/exec": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/npm": "^8.0.3",
     "commitlint-config-fabulator": "^2.0.11",
     "execa": "^5.1.1",
-    "luxon": "^2.0.2",
+    "luxon": "^2.1.1",
     "semantic-release": "^18.0.0",
     "semantic-release-docker": "^2.2.0",
     "semver": "^7.3.5"
