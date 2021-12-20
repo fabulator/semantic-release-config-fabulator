@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-config-fabulator",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "description": "Semantic release config for Fabulators projects",
   "homepage": "https://github.com/fabulator/semantic-release-config-fabulator#readme",
   "bugs": {
