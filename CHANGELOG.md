@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v3.3.0 (2022-02-06)
+### Changed
+- [261badf](https://github.com/fabulator/semantic-release-config-fabulator/commit/261badfdcd11ac9ad43a5a3f7046a03c5878be9e) Update dependencies
+
 ## v3.2.13 (2022-01-31)
 ### Fixed
 - [cf22770](https://github.com/fabulator/semantic-release-config-fabulator/commit/cf22770ad62fc2f2ddc9b24042bb3e10f1296946) Update lock for security updated
