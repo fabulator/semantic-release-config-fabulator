@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v4.0.0 (2022-08-13)
+### Changed
+- [dfb387f](https://github.com/fabulator/semantic-release-config-fabulator/commit/dfb387fc2833b3178f7d3e2f78d95a2c22e30e2d) Update dependency luxon to v3 BREAKING (#103)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [b4b83f4](https://github.com/fabulator/semantic-release-config-fabulator/commit/b4b83f4578abf5e951a558601005b7c6c0bc830c) Update actions/setup-node action to v3 (#85)  
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+- [219eb6a](https://github.com/fabulator/semantic-release-config-fabulator/commit/219eb6a0226eaba1d2e529177556491a1e1dd8be) Update actions/checkout action to v3 (#86)  
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## v3.3.0 (2022-02-06)
 ### Changed
 - [261badf](https://github.com/fabulator/semantic-release-config-fabulator/commit/261badfdcd11ac9ad43a5a3f7046a03c5878be9e) Update dependencies
