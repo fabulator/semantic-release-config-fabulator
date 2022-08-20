@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v5.0.0 (2022-08-20)
+### Changed
+- [cb8b5e6](https://github.com/fabulator/semantic-release-config-fabulator/commit/cb8b5e616d6041f94e3b4e18c4cce3acf3d911f1) Update dependency commitlint-config-fabulator to v5 BREAKING (#110)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v4.0.0 (2022-08-13)
 ### Changed
 - [dfb387f](https://github.com/fabulator/semantic-release-config-fabulator/commit/dfb387fc2833b3178f7d3e2f78d95a2c22e30e2d) Update dependency luxon to v3 BREAKING (#103)
