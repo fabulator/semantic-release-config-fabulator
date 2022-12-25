@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v5.1.0 (2022-12-25)
+### Changed
+- [e8f849c](https://github.com/fabulator/semantic-release-config-fabulator/commit/e8f849c0b3f6b72441a104374bcd2a0093bd235c) Update dependencies
+
 ## v5.0.0 (2022-08-20)
 ### Changed
 - [cb8b5e6](https://github.com/fabulator/semantic-release-config-fabulator/commit/cb8b5e616d6041f94e3b4e18c4cce3acf3d911f1) Update dependency commitlint-config-fabulator to v5 BREAKING (#110)
