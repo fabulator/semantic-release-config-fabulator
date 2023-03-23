@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v6.0.0 (2023-03-23)
+### Changed
+- [4533815](https://github.com/fabulator/semantic-release-config-fabulator/commit/4533815a25454d930be9fbf0f932af9fd5288f57) Update dependency execa to v7 BREAKING (#135)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v5.1.1 (2022-12-25)
 
 ## v5.1.0 (2022-12-25)
