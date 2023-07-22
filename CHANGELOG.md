@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v6.0.1 (2023-07-22)
+### Fixed
+- [0f6d683](https://github.com/fabulator/semantic-release-config-fabulator/commit/0f6d6839dd0991bced669a0be939e9079610c3f5) Docker release
+
 ## v6.0.0 (2023-03-23)
 ### Changed
 - [4533815](https://github.com/fabulator/semantic-release-config-fabulator/commit/4533815a25454d930be9fbf0f932af9fd5288f57) Update dependency execa to v7 BREAKING (#135)
