@@ -13,7 +13,6 @@ module.exports = {
             },
         ],
     ],
-    verifyConditions: ['semantic-release-docker'],
     prepare: [
         ...config.prepare.map((plugin) => {
             if (plugin !== '@semantic-release/npm') {
