@@ -1,3 +1,4 @@
 # Semantic Release Config
 
 ...
+.
