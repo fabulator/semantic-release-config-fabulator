@@ -1,7 +1,8 @@
 import { DateTime } from 'luxon';
 import pcg from 'commitlint-config-fabulator/src/types.cjs';
-const { TEST, IN_PROGRESS } = pcg;
 import processCommits from './process-commits.cjs';
+
+const { TEST, IN_PROGRESS } = pcg;
 
 export default ({ repositoryUrl }, { commits, nextRelease }) => {
     const changes = {};

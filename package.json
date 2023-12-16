@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git@github.com:fabulator/semantic-release-config-fabulator.git"
   },
-  "type": "module",
   "license": "ISC",
   "author": "Michal Ozogán",
+  "type": "module",
   "main": "src/index.cjs",
   "scripts": {
     "lint": "eslint ./ --ext .js --ext .json",

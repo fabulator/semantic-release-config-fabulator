@@ -1,6 +1,7 @@
 import { analyzeCommits } from '@semantic-release/commit-analyzer';
-import processCommits from './process-commits.cjs';
 import pcg from 'commitlint-config-fabulator/src/types.cjs';
+import processCommits from './process-commits.cjs';
+
 const { CHANGED, FIXED, REMOVED, ADDED, DEPRECIATED, DOCS, REFACTORED } = pcg;
 
 export default (settings, { commits, logger }) => {
