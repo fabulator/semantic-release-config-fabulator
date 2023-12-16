@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v7.0.0 (2023-12-16)
+### Changed
+- [64f0bc9](https://github.com/fabulator/semantic-release-config-fabulator/commit/64f0bc9601a21a6cef237b23c9bd33dbbc3bb74a) Bump release BREAKING
+- [19efb17](https://github.com/fabulator/semantic-release-config-fabulator/commit/19efb174d34acd6659e088be2aeae8485b6f5a00) Bump all dependencies BREAKING
+
 ## v6.0.1 (2023-07-22)
 ### Fixed
 - [0f6d683](https://github.com/fabulator/semantic-release-config-fabulator/commit/0f6d6839dd0991bced669a0be939e9079610c3f5) Docker release
