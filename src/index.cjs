@@ -12,7 +12,7 @@ module.exports = {
     generateNotes: path.resolve(__dirname, './generate-notes.js'),
     prepare: [
         // update changelog file
-        path.resolve(__dirname, './update-changelog.js'),
+        path.resolve(__dirname, './update-changelog.cjs'),
         // set version to npm files
         '@semantic-release/npm',
         // commit changed files and push them to GitHub

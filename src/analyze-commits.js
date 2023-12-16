@@ -1,8 +1,9 @@
-const { analyzeCommits } = require('@semantic-release/commit-analyzer');
-const { CHANGED, FIXED, REMOVED, ADDED, DEPRECIATED, DOCS, REFACTORED } = require('commitlint-config-fabulator/src/types');
-const processCommits = require('./process-commits');
+import { analyzeCommits } from '@semantic-release/commit-analyzer';
+import processCommits from './process-commits.cjs';
+import pcg from 'commitlint-config-fabulator/src/types.cjs';
+const { CHANGED, FIXED, REMOVED, ADDED, DEPRECIATED, DOCS, REFACTORED } = pcg;
 
-module.exports = (settings, { commits, logger }) => {
+export default (settings, { commits, logger }) => {
     // do no release anything of there are not commits
     if (commits.length === 0) {
         return null;

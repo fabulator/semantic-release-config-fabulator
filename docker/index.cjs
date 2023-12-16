@@ -1,5 +1,5 @@
 const path = require('path');
-const config = require('../src');
+const config = require('../src/index.cjs');
 
 const dockerPackage = `fabulator/${process.env.npm_package_name}`;
 
