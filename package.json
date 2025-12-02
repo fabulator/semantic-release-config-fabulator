@@ -27,7 +27,7 @@
     "@semantic-release/github": "^9.2.5",
     "@semantic-release/npm": "^11.0.2",
     "commitlint-config-fabulator": "^6.1.0",
-    "execa": "^8.0.1",
+    "execa": "^9.6.1",
     "luxon": "^3.4.4",
     "semantic-release": "^22.0.12",
     "semver": "^7.5.4"
