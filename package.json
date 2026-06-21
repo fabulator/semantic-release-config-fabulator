@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:fabulator/semantic-release-config-fabulator.git"
+    "url": "git+https://github.com/fabulator/semantic-release-config-fabulator.git"
   },
   "license": "ISC",
   "author": "Michal Ozogán",
