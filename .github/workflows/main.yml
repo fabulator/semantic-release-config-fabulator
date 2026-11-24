@@ -4,26 +4,10 @@ on: [push]
 
 permissions:
     contents: read
-    id-token: write # npm trusted publishing (OIDC) + provenance
+    id-token: write # npm trusted publishing (OIDC) - npm validates this file (main.yml), not the shared workflow
 
 jobs:
     build:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v7
-              with:
-                  # otherwise the read-only GITHUB_TOKEN stored by checkout overrides
-                  # GHUB_BOT_TOKEN and semantic-release cannot push the release commit/tag
-                  persist-credentials: false
-            - name: Use Node.js 26.x
-              uses: actions/setup-node@v7
-              with:
-                  node-version: 26.13.1
-            - name: NPM Build and Test
-              run: |
-                  npm ci
-                  npm run lint
-                  npm run release
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GHUB_BOT_TOKEN }}
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        uses: fabulator/workflows/.github/workflows/npm-package.yml@v1
+        secrets:
+            release-token: ${{ secrets.GHUB_BOT_TOKEN }}
