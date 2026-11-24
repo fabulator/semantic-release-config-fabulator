@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v8.0.1 (2026-11-24)
+### Docs
+- [4eae03b](https://github.com/fabulator/semantic-release-config-fabulator/commit/4eae03bcda8e4cc305fac6b3fb7907472a032612) Add usage and commit message rules to README
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
 ## v8.0.0 (2026-11-24)
 ### Fixed
 - [137c086](https://github.com/fabulator/semantic-release-config-fabulator/commit/137c086ce6ffb3947f2fd39f5b0ceefe6b643e9b) Release push permission in CI and update ESLint to v10 (#288)
