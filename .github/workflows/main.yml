@@ -11,6 +11,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v7
+              with:
+                  # otherwise the read-only GITHUB_TOKEN stored by checkout overrides
+                  # GHUB_BOT_TOKEN and semantic-release cannot push the release commit/tag
+                  persist-credentials: false
             - name: Use Node.js 26.x
               uses: actions/setup-node@v7
               with:
