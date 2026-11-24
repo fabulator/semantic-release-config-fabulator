@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v8.0.2 (2026-11-24)
+### Fixed
+- [efd7621](https://github.com/fabulator/semantic-release-config-fabulator/commit/efd7621daf65ffc43518d462bd0ea70d397885f9) Ignore commits hidden from changelog when deciding release type (#291)
+
+Commits marked to be hidden from the changelog still affected the version bump,
+so a hidden "Changed:" commit turned a "Fixed:"-only release into a minor one.
+They are now skipped when deciding the release type, including the BREAKING check.
+
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+
 ## v8.0.1 (2026-11-24)
 ### Docs
 - [4eae03b](https://github.com/fabulator/semantic-release-config-fabulator/commit/4eae03bcda8e4cc305fac6b3fb7907472a032612) Add usage and commit message rules to README
