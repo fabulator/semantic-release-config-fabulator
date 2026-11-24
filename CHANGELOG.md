@@ -1,6 +1,55 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v8.0.0 (2026-11-24)
+### Fixed
+- [137c086](https://github.com/fabulator/semantic-release-config-fabulator/commit/137c086ce6ffb3947f2fd39f5b0ceefe6b643e9b) Release push permission in CI and update ESLint to v10 (#288)
+
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+
+### chore(deps)
+- [8762106](https://github.com/fabulator/semantic-release-config-fabulator/commit/876210621cb24e09bc903c417199e373eb6955dd) changed: update node.js to >=26.13.1 (#284)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### Changed
+- [a9a9ac1](https://github.com/fabulator/semantic-release-config-fabulator/commit/a9a9ac1cfb8a446f00566900fabec03a362f9ce6) Update all dependencies, require Node 26, migrate to ESLint 9 and enable npm trusted publishing BREAKING (#285)
+
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+- [98fd68c](https://github.com/fabulator/semantic-release-config-fabulator/commit/98fd68c544944c0ba6f3f6ba979e0355088f9855) Update Github Flow  dependency node to v20.20.2 (#278)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [b022582](https://github.com/fabulator/semantic-release-config-fabulator/commit/b022582fbbca62a3ee7e490c30da0509dabff5f2) Update Github Flow  dependency node to v20.20.1 (#277)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [9ea730a](https://github.com/fabulator/semantic-release-config-fabulator/commit/9ea730adaa393e6e476cd1f207a6ca510998f300) Update Github Flow  dependency node to v20.20.0 (#275)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [e193cd4](https://github.com/fabulator/semantic-release-config-fabulator/commit/e193cd428b1b450f8f7da86e39f46ea696ecf134) Update Github Flow  dependency node to v20.19.6 (#271)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [15cd1fc](https://github.com/fabulator/semantic-release-config-fabulator/commit/15cd1fcd4cd1d2c7c9104b59329cc2d53e891e35) Update Github Flow  dependency node to v20.19.5 (#263)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [3f40765](https://github.com/fabulator/semantic-release-config-fabulator/commit/3f40765c1b408b193177adb9dd905f76a06eb884) Update Github Flow  dependency node to v20.19.4 (#259)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [1eefb61](https://github.com/fabulator/semantic-release-config-fabulator/commit/1eefb610df42b266d7e52a6a462ae91b6cf57b95) Update Github Flow  dependency node to v20.19.3 (#257)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [6bfb377](https://github.com/fabulator/semantic-release-config-fabulator/commit/6bfb377b4f2d79941eb33e980345c00e69560938) Update Github Flow  dependency node to v20.19.2 (#251)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [8aea405](https://github.com/fabulator/semantic-release-config-fabulator/commit/8aea405fdabff724dde66df44b16695edde7c730) Update Github Flow  dependency node to v20.19.1 (#250)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [217fa82](https://github.com/fabulator/semantic-release-config-fabulator/commit/217fa82fb609b7c8f60a026f84214102e4f96850) Update Github Flow  dependency node to v20.19.0 (#244)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+- [c2b5a5c](https://github.com/fabulator/semantic-release-config-fabulator/commit/c2b5a5c96d41f876820c691638d39410b53adf2c) Update Github Flow  dependency node to v20.18.3 (#242)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## v7.0.0 (2023-12-16)
 ### Changed
 - [64f0bc9](https://github.com/fabulator/semantic-release-config-fabulator/commit/64f0bc9601a21a6cef237b23c9bd33dbbc3bb74a) Bump release BREAKING
