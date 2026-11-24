@@ -8,31 +8,36 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:fabulator/semantic-release-config-fabulator.git"
+    "url": "git+https://github.com/fabulator/semantic-release-config-fabulator.git"
   },
   "license": "ISC",
   "author": "Michal Ozogán",
   "type": "module",
   "main": "src/index.cjs",
+  "engines": {
+    "node": ">=26.13"
+  },
   "scripts": {
-    "lint": "eslint ./ --ext .js --ext .json",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@semantic-release/commit-analyzer": "^11.1.0",
-    "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.5",
-    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^11.0.1",
+    "@semantic-release/github": "^12.0.11",
+    "@semantic-release/npm": "^13.2.0",
     "commitlint-config-fabulator": "^6.1.0",
-    "execa": "^8.0.1",
-    "luxon": "^3.4.4",
-    "semantic-release": "^22.0.12",
-    "semver": "^7.5.4"
+    "execa": "^10.2.1",
+    "luxon": "^3.7.2",
+    "semantic-release": "^26.0.1",
+    "semver": "^7.8.6"
   },
   "devDependencies": {
-    "eslint-config-fabulator": "^3.1.0"
+    "eslint": "^9.39.5",
+    "eslint-config-fabulator": "^5.3.2",
+    "typescript": "^5.9.3"
   }
 }
