@@ -33,5 +33,5 @@ Releases are driven by commit message prefixes from
 
 - `BREAKING` anywhere in a commit subject triggers a major release.
 - `NO_RELEASE` in the latest commit skips the release.
-- `EXCLUDE` hides the commit from the changelog.
+- `EXCLUDE` hides the commit from the changelog and ignores it when deciding the release type.
 - `;` splits one commit into several changelog entries, e.g. `Added: X; Fixed: Y`.
