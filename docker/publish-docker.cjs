@@ -1,28 +1,34 @@
-const execa = require('execa');
+const { execa } = require('execa');
 const semver = require('semver');
 
 module.exports = async ({ name }, { nextRelease: { version }, logger }) => {
-    function publish(dockerVersion) {
-        logger.log(`Pushing version ${name}:${dockerVersion} to docker hub`);
-        execa('docker', ['tag', `${name}:latest`, `${name}:${dockerVersion}`], { stdio: 'inherit' });
-        execa('docker', ['push', `${name}:${dockerVersion}`], { stdio: 'inherit' });
-    }
+  async function publish(dockerVersion) {
+    logger.log(`Pushing version ${name}:${dockerVersion} to docker hub`);
+    await execa(
+      'docker',
+      ['tag', `${name}:latest`, `${name}:${dockerVersion}`],
+      { stdio: 'inherit' },
+    );
+    await execa('docker', ['push', `${name}:${dockerVersion}`], {
+      stdio: 'inherit',
+    });
+  }
 
-    const { major, minor, patch, prerelease } = semver(version);
+  const { major, minor, patch, prerelease } = semver.parse(version);
 
-    const isProdRelease = prerelease.length === 0;
+  const isProdRelease = prerelease.length === 0;
 
-    publish(version);
+  await publish(version);
 
-    if (isProdRelease) {
-        publish(`${major}.${minor}`);
-        publish(`${major}`);
-        publish('latest');
-        return;
-    }
+  if (isProdRelease) {
+    await publish(`${major}.${minor}`);
+    await publish(`${major}`);
+    await publish('latest');
+    return;
+  }
 
-    const [channel] = prerelease;
+  const [channel] = prerelease;
 
-    publish(channel);
-    publish(`${major}.${minor}.${patch}-${channel}`);
+  await publish(channel);
+  await publish(`${major}.${minor}.${patch}-${channel}`);
 };
