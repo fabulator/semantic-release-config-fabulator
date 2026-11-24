@@ -15,8 +15,13 @@ export default (settings, { commits, logger }) => {
     return null;
   }
 
+  // commits hidden from changelog by EXCLUDE do not affect the release type
+  const releaseCommits = processCommits(commits).filter(
+    (commit) => !commit.subject.includes('EXCLUDE'),
+  );
+
   // if there is work BREAKING in any commits, make major release
-  if (commits.some((commit) => commit.subject.includes('BREAKING'))) {
+  if (releaseCommits.some((commit) => commit.subject.includes('BREAKING'))) {
     return 'major';
   }
 
@@ -32,6 +37,6 @@ export default (settings, { commits, logger }) => {
         { type: DOCS, release: 'patch' },
       ],
     },
-    { commits: processCommits(commits), logger },
+    { commits: releaseCommits, logger },
   );
 };
